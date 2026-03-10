@@ -3,6 +3,7 @@
 *.xls
 *.csv
 
+
 # Secrets
 .env
 *.env
@@ -10,3 +11,13 @@
 # Python cache
 __pycache__/
 *.pyc
+
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# TSV / Parquet data files
+*.tsv
+*.parquet
+
+# Virtual environment
+.venv/
